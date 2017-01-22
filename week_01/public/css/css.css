@@ -40,11 +40,6 @@ h3 {
 	font-size: 1.25em;
 }
 
-p, li {
-	font-size: 1em;
-	line-height: 1.5;
-}
-
 a:link {
 	color: #0074d9;
 }
@@ -53,9 +48,8 @@ blockquote {
 	background-color: #dddddd;
 	width: 100%;
 	margin: 0;
-	font-size: 0.875em;
-	padding: 1em 1em 2em 1em;
-	line-height: 1.16;
+	font-size: 1.09em;
+	padding: 0.5em 0.5em 1em 0.5em;
 }
 
 iframe {
