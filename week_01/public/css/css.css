@@ -49,10 +49,9 @@ a:link {
 
 blockquote {
 	background-color: #dddddd;
-	width: 100%;
 	margin: 0;
 	font-size: 1.09em;
-	padding: 0.5em 0.5em 1em 0.5em;
+	padding: 0.5em 0.5em 1em 1em;
 }
 
 iframe {
