@@ -9,15 +9,17 @@ html {
 
 body {
 	font-family: serif;
-	line-height: 1.4;
 	color: #111;
-	font-size: 1em;
-	max-width: 40em;
+	font-size: 0.75em;
+	line-height: 1.16;
+	max-width: 640px;
 	margin: 0 auto;
+	padding-bottom: 4.3rem;
 }
 
-img {
-	max-width: 40em;
+img, iframe {
+	width: 640px;
+	padding: 0;
 }
 
 h1, h2, h3 {
@@ -25,24 +27,43 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 3.937em;
+	font-size: 2.833rem;
 	text-transform: uppercase;
-	line-height: 1.2;
 }
 
 h2 {
-	font-size: 2.5em;
+	font-size: 1.667rem;
 }
 
 h3 {
-	font-size: 1.875em;
+	font-size: 1.333rem;
 }
 
 p {
 	font-family: serif;
-	font-size: 1.5em;
+}
+
+p, blockquote, li {
+	font-size: 1.166rem;
+	line-height: 1.4;
 }
 
 a:link {
 	color: #0074d9;
+}
+
+blockquote {
+	background-color: #ccc;
+	width: 100%;
+	margin: 0;
+	padding: 1rem;
+}
+
+iframe {
+	height: 360px;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0 0 0 1rem;
 }
