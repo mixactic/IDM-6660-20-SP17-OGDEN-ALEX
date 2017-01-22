@@ -43,8 +43,8 @@ p {
 	font-family: serif;
 }
 
-p, blockquote, li {
-	font-size: 1.166rem;
+p, li {
+	font-size: 1rem;
 	line-height: 1.4;
 }
 
@@ -56,7 +56,8 @@ blockquote {
 	background-color: #dddddd;
 	width: 100%;
 	margin: 0;
-	padding: 1rem 1rem 2rem 1rem;
+	font-size: 1.166rem;
+	padding: 1rem 0.83rem 2rem 0.83rem;
 }
 
 iframe {
