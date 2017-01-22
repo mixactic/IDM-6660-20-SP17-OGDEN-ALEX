@@ -10,16 +10,16 @@ html {
 body {
 	font-family: Times New Roman, Times, serif;
 	color: #111;
-	font-size: 0.75em;
-	line-height: 1.16;
-	max-width: 640px;
+	font-size: 1em;
+	line-height: 1.4;
+	width: 40em;
 	margin: 0 auto;
-	padding-bottom: 4.3rem;
 }
 
 img, iframe {
-	width: 640px;
+	width: 100%;
 	padding: 0;
+	margin: 0;
 }
 
 h1, h2, h3 {
@@ -27,16 +27,17 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 2.833rem;
+	font-size: 2.06em;
 	text-transform: uppercase;
+	line-height: 1.2;
 }
 
 h2 {
-	font-size: 1.667rem;
+	font-size: 1.31em;
 }
 
 h3 {
-	font-size: 1.333rem;
+	font-size: 1.06em;
 }
 
 p {
@@ -44,7 +45,7 @@ p {
 }
 
 p, li {
-	font-size: 1rem;
+	font-size: 0.75em;
 	line-height: 1.4;
 }
 
@@ -56,15 +57,15 @@ blockquote {
 	background-color: #dddddd;
 	width: 100%;
 	margin: 0;
-	font-size: 1.166rem;
-	padding: 1rem 0.83rem 2rem 0.83rem;
+	font-size: 0.875em;
+	padding: 0.75em 0.75em 1.5em 0.75em;
 }
 
 iframe {
-	height: 360px;
+	height: 22.5em;
 }
 
 ul, li {
 	margin: 0;
-	padding: 0 0 0 1rem;
+	padding: 0 0 0 0.75em;
 }
