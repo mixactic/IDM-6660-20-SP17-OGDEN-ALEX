@@ -110,10 +110,6 @@ footer {
 
 @media screen and (min-width: 480px) {
 	
-	html {
-		font-size: 24px;
-	}
-	
 	body>* {
 		width: 480px;
 	}
@@ -130,7 +126,7 @@ footer {
 @media screen and (min-width: 720px) {
 
 	html {
-		font-size: 28px;
+		font-size: 24px;
 	}
 	
 	body>* {
@@ -159,7 +155,7 @@ footer {
 @media screen and (min-width: 1080px) {
 	
 	html {
-		font-size: 30px;
+		font-size: 28px;
 	}
 	
 	body {
