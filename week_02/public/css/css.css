@@ -160,14 +160,12 @@ footer {
 	
 	body {
 		background-color: #ff851b;
-		width: 1080;
+		width: 1080px;
 		margin: 0 auto;
 	}
 	
 	main {
-		width: 75%;
 		float: right;
-		margin: 0 auto;
 	}
 	
 	header {
@@ -215,10 +213,11 @@ footer {
 	
 	body {
 		width: 1600px;
+		margin: 0 auto;
 	}
 	
 	main {
-		width: 80%;
+		width: 75%;
 		margin: 0 auto;
 	}
 	
