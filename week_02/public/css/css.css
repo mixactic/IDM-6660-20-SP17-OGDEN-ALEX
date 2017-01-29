@@ -160,12 +160,12 @@ footer {
 	
 	body {
 		background-color: #ff851b;
-		width: 100%;
+		width: 1080;
 		margin: 0 auto;
 	}
 	
 	main {
-		width: 66.66%;
+		width: 75%;
 		float: right;
 		margin: 0 auto;
 	}
@@ -176,7 +176,7 @@ footer {
 	
 	header, footer {
 		float: left;
-		width: 33.33%;
+		width: 25%;
 	}
 	
 	article {
@@ -212,6 +212,10 @@ footer {
 }
 
 @media screen and (min-width: 1620px) {
+	
+	body {
+		width: 1600px;
+	}
 	
 	main {
 		width: 80%;
