@@ -115,15 +115,11 @@ footer {
 	}
 	
 	body>* {
-		width: 90%;
+		width: 480px;
 	}
 	
 	article p span {
 		display: block;
-	}
-	
-	header {
-		width: 90%;
 	}
 	
 	article p:after {
@@ -137,20 +133,26 @@ footer {
 		font-size: 28px;
 	}
 	
+	body>* {
+		width: 720px;
+		margin: 0 auto;
+	}
+	
 	img.cover-img {
-		width: 320px;
-		margin: 0 1rem 0 0; 
+		width: 315px;
+		margin-top: 2rem; 
 		padding: 0;
+		position: absolute;
 	}
 	
-	article h2, article h1, article p {
-		width: 400px;
+	article h1, article h2, article p {
+		width: 405px;
 		float: right;
+		padding-left: 0.5rem;
 	}
 	
-	article h2, article p {
-		margin: 0;
-		padding: 0;
+	article>h1 {
+		padding-top: 2rem;
 	}
 }
 
@@ -162,20 +164,30 @@ footer {
 	
 	body {
 		background-color: #ff851b;
-		width: 100%;	
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	main {
+		width: 66.66%;
+		float: right;
+		margin: 0 auto;
 	}
 	
 	header {
-		float: left;
-		width: 320px;
-		height: 3000px;
-		margin: 1rem 2rem;
-		padding: 0;
+		padding: 1rem;
 	}
 	
-	.cover-img {
-		width: 360px;
-		height: 520px;
+	header, footer {
+		float: left;
+		width: 33.33%;
+	}
+	
+	article {
+		float: left;
+		width: 320px;
+		margin: 1rem 1rem 0 0;
+		padding: 0;
 	}
 	
 	article p span {
@@ -186,28 +198,32 @@ footer {
 		display: none;
 	}
 	
-	article {
-		width: 360px;
-		height: 520px;
-		margin: 0.5rem 0;
+	img.cover-img {
+		height: 470px; 
+		margin: 0;
 		padding: 0;
-		float: left;
+		position: relative;
+	}
+	
+	.clearfix:after {
+    display: inline-block;
 	}
 	
 	footer {
-	position: absolute;
-	top: 420px;
-	left: 1rem;
-	clear: both;
-	margin-left: 1.5em;
+		padding-left: 1rem;
 	}
 	
 }
 
 @media screen and (min-width: 1620px) {
 	
-	header {
-		height: 2200px;
+	main {
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	header, footer {
+		width: 20%;
 	}
 
 }
