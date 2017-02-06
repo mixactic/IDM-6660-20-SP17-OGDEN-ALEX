@@ -3,9 +3,9 @@
 	<head>
 		<title>Obsidian Entertainment</title>
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
 	</head>
 	
 	<body>
@@ -15,26 +15,69 @@
 			</header>
 			
 			<section class="hero">
-				<button class="button">
-				Back us on Fig
+				<button class="hero-button">
+				<a href="#">Back us on Fig</a>
 				</button>
 			</section>
+			
 			<nav class="main-nav">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Games</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Jobs</a></li>
-					<li><a href="#">Support</a></li>
-					<li><a href="#">Community</a></li>
-				</ul>
+				<button class="nav-button"><i class="fa fa-bars fa-3" aria-hidden="true"></i></button>
+				<div class="panel">
+				<button class="nav-button">Games</button>
+						<div class="panel">
+							<ul>
+								<li>Pillars of Eternity</li>
+								<li>Pillars of Eternity II</li>
+								<li>Blah</li>
+								<li>Blahs</li>
+								<li>Blahsss</li>
+							</ul>
+						</div>
+				<button class="button"><a href="#">Blog</a></button>
+				<button class="nav-button"><a href="#">Jobs</a></button>
+					<div class="panel">
+						<ul>
+							<li>Job 1</li>
+							<li>Job 2</li>
+							<li>Job 3</li>
+						</ul>
+					</div>
+				<button class="button"><a href="#">Support</a></button>
+				<button class="nav-button"><a href="#">Community</a></button>
+					<div class="panel">
+						<ul>
+							<li>link 1</li>
+							<li>link 2</li>
+							<li>link 3</li>
+							<li>link 4</li>
+							<li>link 5</li>
+						</ul>
+					</div>
+				</div>
 			</nav>
 			<section class="section">
 				<article class="article">
 				</article>
 			</section>
 		</main>
+		
+		<!-- I modified this original javascript from w3schools.com:  http://www.w3schools.com/howto/howto_js_accordion.asp -->
+		<script>
+			var acc = document.getElementsByClassName("nav-button");
+			var i;
 
+			for (i = 0; i < acc.length; i++) {
+				acc[i].onclick = function(){
+					this.classList.toggle("active");
+					var panel = this.nextElementSibling;
+					if (panel.style.display === "block") {
+						panel.style.display = "none";
+					} else {
+						panel.style.display = "block";
+					}
+				}
+			}
+		</script>
 	</body>
 </html>
 	
