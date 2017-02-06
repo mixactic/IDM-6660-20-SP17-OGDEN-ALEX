@@ -29,6 +29,7 @@ body {
 	background-color: #000;
 	background-image: url(../img/bg.gif);
 	background-repeat: repeat-x;
+	color: #fff;
 }
 
 a:link {
@@ -36,13 +37,25 @@ a:link {
 }
 
 a:link, a:visited {
-	color: #fff;
+	color: #d6751e;
 }
+
+h2 {
+	font-size: 1.25em;
+}
+
+h3 {
+	font-size: 1.05em;
+}
+
+h2, button, .panel li {
+	text-transform: uppercase;
+} 
 
 .header {
 	width: 100%;
-	height: 12.5em;
-	margin: 0;
+	max-height: 12.5em;
+	margin-top: 4em;
 	padding: 1em;
 	background-image: url(../img/header.jpg);
 	background-repeat: no-repeat;
@@ -51,16 +64,14 @@ a:link, a:visited {
 
 .header img {
 	max-height: 10em;
-	padding-top: 1em;
+	padding: 1em 0;
 }
 
 .hero {
 	position: relative;
 	max-width: 100%;
 	height: 25em;
-	background-image: url(../img/carousel-fig-announce.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
+	overflow: hidden;
 }
 
 .hero-button {
@@ -72,55 +83,116 @@ a:link, a:visited {
 	border: 1px solid #fff;
 	border-radius: 0.5em;
 	color: #fff;
-	text-transform: uppercase;
 	font-size: 1em;
 	padding: 0.5em;
 }
 
-i.fa-bars {
+.social-media, .button, .nav-button {
+	width: 100%;
+	background-color: #111;
+}
+
+.social-media {
+	text-align: center;
+}
+
+i.fa-facebook, i.fa-twitter, i.fa-instagram, i.fa-twitch {
 	color: #fff;
 	font-size: 2em;
 }
 
+i.fa-facebook, i.fa-twitter, i.fa-instagram, i.fa-twitch {
+	padding: 0.5em;
+}
+
+i.fa-bars {
+	color: #8a6fb7;
+	font-size: 2.25em;
+	float: left;
+}
+
 .button, .nav-button {
-	background-color: #111;
 	cursor: pointer;
 	padding: 1em;
-	width: 100%;
 	text-align: center;
-	text-transform: uppercase;
 	color: #fff;
 	border: none;
 	outline: none;
-}
-
-.nav-button.active {
-	background-color: #000;
+	font-size: 1em;
 }
 
 .panel {
+	text-align: left;
 	display: none;
 	background-color: #222;
 }
 
 .panel li {
-	text-align: center;
-	padding: 0.5em;
-	font-size: 0.75em;
-	text-transform: uppercase;
+	padding: 1.5em;
+	font-size: 0.85em;
 }
 
 .main-nav {
 	width: 100%;
-	height: 1.5em;
-	color: #fff;
 	margin: 0;
 	padding: 0;
 	position: fixed;
+	top: 0;
 }
 
 .main-nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+}
+
+.main-nav a, .hero-button a {
+	color: #fff;
+}
+
+.section {
+	max-width: 100%;
+}
+
+.section h2 {
+	background-color: #2f1b51;
+	width: 100%;
+	margin: 0;
+	padding: 0.25em;
+}
+
+.article {
+	margin: 1em;
+}
+
+.date {
+	color: #524765;
+}
+
+form {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+input {
+	width: 6em;
+	height: 1.5em;
+	margin-bottom: 1em;
+	vertical-align: middle;
+	border: none;
+}
+
+.submit {
+	background-color: #8a6fb7;
+	color: #fff;
+	padding: 0.5em;
+	margin: 0.5em 0.33em;
+	cursor: pointer;
+	border: 1px solid #999;
+	float: right;
+}
+
+i.fa-envelope {
+	float: right;
 }

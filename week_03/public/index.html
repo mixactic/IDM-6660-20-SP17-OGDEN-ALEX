@@ -11,10 +11,19 @@
 	<body>
 		<main class="main">
 			<header class="header">
-				<img src="img/obsidian-logo.svg">
+				<a href="#">
+				<img src="img/obsidian-logo.svg"></a>
 			</header>
 			
+			<section class="social-media">
+				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-twitch" aria-hidden="true"></i></a>
+			</section>
+			
 			<section class="hero">
+				<img src="img/carousel-fig-announce.jpg">
 				<button class="hero-button">
 				<a href="#">Back us on Fig</a>
 				</button>
@@ -26,39 +35,113 @@
 				<button class="nav-button">Games</button>
 						<div class="panel">
 							<ul>
-								<li>Pillars of Eternity</li>
-								<li>Pillars of Eternity II</li>
-								<li>Blah</li>
-								<li>Blahs</li>
-								<li>Blahsss</li>
+								<li><a href="#">Alpha Protocol</a></li>
+								<li><a href="#">Armored Warfare</a></li>
+								<li><a href="#">Dungeon Siege III</a></li>
+								<li><a href="#">Fallout: New Vegas</a></li>
+								<li><a href="#">Neverwinter Nights 2</a></li>
+								<li><a href="#">Neverwinter Nights 2: Mask of the Betrayer</a></li>
+								<li><a href="#">Neverwinter Nights 2: Storm of Zehir</a></li>
+								<li><a href="#">Pathfinder Adventures</a></li>
+								<li><a href="#">Pillars of Eternity</a></li>
+								<li><a href="#">Pillars of Eternity II: Deadfire</a></li>
+								<li><a href="#">South Park: The Stick of Truth</a></li>
+								<li><a href="#">Star Wars Knights of the Old Republic II</a></li>
+								<li><a href="#">Tyranny</a></li>
 							</ul>
 						</div>
 				<button class="button"><a href="#">Blog</a></button>
 				<button class="nav-button"><a href="#">Jobs</a></button>
 					<div class="panel">
 						<ul>
-							<li>Job 1</li>
-							<li>Job 2</li>
-							<li>Job 3</li>
+							<li><a href="#">Open Positions</a></li>
+							<li><a href="#">Life at Obsidian</a></li>
+							<li><a href="#">Apply Now</a></li>
 						</ul>
 					</div>
 				<button class="button"><a href="#">Support</a></button>
 				<button class="nav-button"><a href="#">Community</a></button>
 					<div class="panel">
 						<ul>
-							<li>link 1</li>
-							<li>link 2</li>
-							<li>link 3</li>
-							<li>link 4</li>
-							<li>link 5</li>
+							<li><a href="#">Community Home</a></li>
+							<li><a href="#">Alpha Protocol</a></li>
+							<li><a href="#">Armored Warfare</a></li>
+							<li><a href="#">Dungeon Siege III</a></li>
+							<li><a href="#">Fallout: New Vegas<a/></li>
+							<li><a href="#">Neverwinter Nights 2</a></li>
+							<li><a href="#">Pathfinder Adventures</a></li>
+							<li><a href="#">Pillars of Eternity</a></li>
+							<li><a href="#">Pillars of Eternity II: Deadfire</a></li>
+							<li><a href="#">South Park: The Stick of Truth</a></li>
+							<li><a href="#">Star Wars Knights of the Old Republic</a></li>
+							<li><a href="#">Tyranny</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
-			<section class="section">
+			
+			<section class="section clearfix">
+				<h2>News</h2>
 				<article class="article">
+					<h3>Feargus Urquhart Interview on IGN Unfiltered</h3>
+					
+					<p class="date">January 31, 2017</p>
+
+					<p>Obsidian Entertainment CEO, Feargus Urquhart, had the chance recently to go up to the IGN offices and sit down with Ryan McCaffrey for an interview in their Unfiltered series.</p>
 				</article>
 			</section>
+			
+			<section class="section clearfix">
+				<h2>Poll</h2>
+				<article class="article">
+					<p>Who is your favorite companion in Pillars of Eternity?</p>
+				
+					<form action="poll.php" method="post" name="poll">
+						<div>
+							<input type="radio" name="vote" value="1">"Eder"
+						</div>
+						<div>
+							<input type="radio" name="vote" value="2">"Alroth"
+						</div>
+						<div>
+							<input type="radio" name="vote" value="3">"Grieving Mother"
+						</div>
+						<div>
+							<input type="radio" name="vote" value="4">"Kana"
+						</div>
+						<div>
+							<input type="radio" name="vote" value="5">"Sagani"
+						</div>
+						<div>
+							<input type="radio" name="vote" value="6">"Pallegina"
+						</div>
+						<div>
+							<input type="radio" name="vote" value="7">"Durance"
+						</div>
+						<div>
+							<input type="radio" name="vote" value="8">"Hiravias"
+						</div>
+						
+						<button class="submit">View Results</button>
+						
+						<button class="submit">Vote</button>
+						
+					</form>
+				</article>
+			</section>
+			
+			<section class="section clearfix">
+				<h2>New Job Listings</h2>
+				
+				<article class="article">
+					<h3>Character Artist 
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+					</h3>
+
+					<p>Obsidian Entertainment is looking for a talented and self-motivated Character Artist to join our growing team of RPG developers.</p>
+				</article>
+			</section>
+			
 		</main>
 		
 		<!-- I modified this original javascript from w3schools.com:  http://www.w3schools.com/howto/howto_js_accordion.asp -->
