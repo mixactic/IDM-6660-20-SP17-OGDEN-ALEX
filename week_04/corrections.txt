@@ -1,0 +1,7 @@
+For the final version of this mobile first design, I decided to change the navigation menu entirely, opting for icons that link directly to sections within the main page -- e.g., "Games," and "Jobs." The dropdown menu from the original site was too overwhelming for me to organize with my limited knowledge of Javascript. Also, I wonder if it might suit a mobile site better to have a more simplified menu anyway. 
+
+I followed the advice of my classmates regarding margins, line-height, and font-sizes.
+
+I agree that white text on black is horrible to read. Originally, I intended to try to preserve the look of the original site, but after reading Robert's critique, it made more sense to me to change up the section content color palette so that the viewer is looking at dark text on a light background. Keeping the menu and the logo on dark backgrounds helps acknowledge the original desktop design. 
+
+I wanted to play around with making some cool logos or icons, but in the end ran out of time to do everything I originally set out to accomplish. 
