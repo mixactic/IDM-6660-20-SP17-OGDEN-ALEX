@@ -170,7 +170,6 @@ a:active {
 
 .content h3, .content-about h3 {
 	font-size: 2em;
-	margin: 1rem;
 }
 
 .content p, .content-about p {
@@ -461,6 +460,7 @@ a:active {
 	}
 	
 	.main-nav a:link {
+		color: #000;
 		font-weight: 900;
 	}
 	
@@ -489,34 +489,6 @@ a:active {
 		left: 0;
 		top: 0;
 	}
-
-	/*
-	 .main-nav {
-		display: block;
-		position: fixed;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		text-align: center;
-		background-image: url(../img/nav-7.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
-		z-index: 200;
-		width: 200px;
-		height: 266px;
-	} 
-	
-	.main-nav ul {
-		padding-top: 6em;
-	}
-	
-	.main-nav li {
-		font-size: 1.15em;
-		padding: 0;
-		margin: 0;
-		text-transform: uppercase;
-	} */
 	
 	.content-about {
 		width: 45%;
@@ -556,20 +528,17 @@ a:active {
 		background-position: center right;
 	}
 	
-	.content-about-page {
+	.content-about-page, .content-works-page {
 		width: 100%;
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		padding-left: 6em;
 	}
 	
-	.content-works-page {
-		position: absolute;
-		top: 35%;
-		left: 50%;
-		transform: translate(-50%,-35%);
+	.content h3 {
+		font-size: 1.5em;
+		font-weight: 900;
 	}
 	
 	.content-block-page {
@@ -578,21 +547,24 @@ a:active {
 
 	.content-block-page:target {
 		display: block;
-		width: 100%;
-	
 	}
 	
-	.contact-placement {
+	.container {
 		width: 100%;
 		position: absolute;
 		top: 60%;
 		transform: translateY(-60%);
+		padding-left: 4em;
 	}
 	
-	.contact-placement h2 {
-		margin-left: 6em;
+	.sections {
+		border-bottom: 1px dotted black;
 	}
-
+	
+	.social-nav {
+		padding: 0;
+	}
+	
 	.social-nav li {
 		padding: 1em 2em;
 		margin: 0;
