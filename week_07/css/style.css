@@ -327,8 +327,8 @@ a:active {
 	}
 	
 	.header-1 {
-		background-image: url (../img/background-3.jpg);
-		background-position: right top;
+		background-image: url(../img/background-3.jpg);
+		background-position: right center;
 	}
 	
 	.header-1 {
@@ -428,6 +428,7 @@ a:active {
 		height: 100vh;
 		float: left;
 		background-position: center;
+		object-fit: cover;
 	}
 	
 	 .main-nav {
@@ -475,7 +476,8 @@ a:active {
 		height: 100vh;
 		position: absolute;
 		top: 0;
-		right: 0;	
+		right: 0;
+		object-fit: cover;
 	}
 
 	.content-block-about:target {
