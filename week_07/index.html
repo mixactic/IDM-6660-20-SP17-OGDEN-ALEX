@@ -3,17 +3,17 @@
 	<head>
 		<title>Alex Ogden</title>
 		<link rel="stylesheet" href="css/style.css">
-			<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<style>
-			:root:before {
-				content: url(img/background-3.jpg")
-				url(img/background-2.jpg)
-				url(img/wall-1.jpg)
-				url(img/wall-2.jpg);
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		:root:before {
+			content: url(img/background-3.jpg),
+			url(img/background-2.jpg),
+			url(img/wall-1.jpg),
+			url(img/wall-2.jpg);
 		}
-			</style>
+		</style>
 	</head>
 		
 	<body>
@@ -26,6 +26,8 @@
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
+			
+			
 		</header>
 		
 		<section class="mobile-about">
@@ -40,7 +42,7 @@
 			</article>
 		</section>
 		
-		<section class="mobile-works">
+		<section id="worksnav" class="mobile-works">
 			<article  id="works" class="content">
 				<h2 class="works">Works</h2>
 				<ul class="works-list">
@@ -52,6 +54,7 @@
 			
 			<article id="visual" class="content-block">
 				<div class="clearfix">
+					<h3>Visual</h3>
 					<h4>Illustration</h4>
 					<p>Alex has been drawing ever since she could first hold a crayon - sometimes on paper, often on walls. Graphite portraits, pen-and-ink, and watercolors are her preferred working media. She is currently developing a graphic novel.</p> 
 					<a href="#"><h5>View Projects <i class="fa fa-angle-double-right" aria-hidden="true"></i></h5></a>
@@ -65,20 +68,28 @@
 					<h4>Video</h4>
 					<p>Alex has only recently begun to experiment with film, video, and animation; she hopes one day to produce a stop motion animated project.</p>
 					<a href="#"><h5>View Projects <i class="fa fa-angle-double-right" aria-hidden="true"></i></h5></a>
+					<p><a href="#worksnav"><i class="fa fa-angle-double-up" aria-hidden="true"></i>
+ Back to top</a></p>
 				</div>
 			</article>
 			
 			<article id="audio" class="content-block">
+				<h3>Audio</h3>
 				<p class="content">Alex has been making original electronic music since 1998. Formerly one half of the electronic music project, M45, she currently creates under the alias <a href="https://soundcloud.com/user-827322490"><span class="emphasis">hoof.beat</span></a>, forging a signature sound that incorporates  elements from the experimental, ambient, electronica, IDM, and drum 'n' bass genres.</p>
 					
 				<p>Bridging the divide between anaolgue and digital realms, Alex's compositions combine warmer refrains from acoustic guitar and recorded ambient noise with cooler textures from MIDI-based instruments, computer synthesizers, and punchy drum machine rhythms.</p> 
 				<p class="offset"><a href="https://soundcloud.com/user-827322490"><i class="fa fa-soundcloud" aria-hidden="true"></i> Hear <span class="emphasis">hoof.beat</span> on Soundcloud.</a></p>
+				<p><a href="#worksnav"><i class="fa fa-angle-double-up" aria-hidden="true"></i>
+ Back to top</a></p>
 			</article>
 			
 			<article id="web" class="content-block">
+				<h3>Web</h3>
 				<p class="content">Alex fell in love with coding after learning BASIC in grade school in 1990, and has been tinkering with HTML and CSS since 1997. She is passionate about writing quality code, and enjoys pushing the boundaries of web development, experimenting with UX and UI, and learning as much as she can about all things Internet. Alex is currently a student in <a href="http://mcad.edu/academic-programs/interactive-design-and-marketing-certificate">MCAD's Interactive Design and Marketing program</a>.</p>
 				
 				<p class="offset"><a href="https://github.com/mixactic"><i class="fa fa-github" aria-hidden="true"></i> Connect with Alex on GitHub.</a></p>
+				<p><a href="#worksnav"><i class="fa fa-angle-double-up" aria-hidden="true"></i>
+ Back to top</a></p>
 			</article>
 		</section>
 		
@@ -117,15 +128,17 @@
 		</section>
 		
 		<!-- Begin Desktop Version -->
-		<section class="header-2">
+		<div class="white-card">
 			<nav class="main-nav">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#about-page">About</a></li>
-					<li><a href="#works-page">Works</a></li>
+				<ul class="vertical-text-left">
+					<li><a href="#about-page">about</a></li>
+					<li><a href="#works-page">works</a></li>
+					<li><a href="#">contact</a></li>
 				</ul>
 			</nav>
-			
+		</div>
+		
+		<section class="header-2">
 			<article class="contact-placement">
 				<h2 class="contact">Contact</h2>
 				
@@ -173,41 +186,39 @@
 		</section>
 		
 		<section id="works-page" class="content-block-works"> 
-			<article class="content-works-page">
+			<div class="content-works-page">
+			<article class="content-works">
 				<h2>Works</h2>
 				<ul class="works-list">
 					<li><a href="#visual-page">Visual </a>| </li>
 					<li><a href="#audio-page">Audio </a>| </li>
 					<li><a href="#web-page">Web</a></li>
 				</ul>
-			</article>
+			</div>
 			
-			<article id="visual-page" class="content-block">
-				<div class="clearfix">
+			<div id="visual-page" class="content-block-page">
 					<h4>Illustration</h4>
 					<p>Alex has been drawing ever since she could first hold a crayon - sometimes on paper, often on walls. Graphite portraits, pen-and-ink, and watercolors are her preferred working media. She is currently developing a graphic novel.</p> 
 					<a href="#"><h5>View Projects <i class="fa fa-angle-double-right" aria-hidden="true"></i></h5></a>
-				</div>
-				<div class="clearfix">
+
 					<h4>Photography</h4>
 					<p>In 1995, Alex started taking candid shots of people hanging out in Uptown Minneapolis, MN using her dad's Canon FTb SLR camera. It was love at first click. She studied darkroom processing at the University of Minnesota, but has since migrated to the digital world. Her primary topic of choice remains street photography. </p>
 					<a href="#"><h5>View Projects <i class="fa fa-angle-double-right" aria-hidden="true"></i></h5></a>
-				</div>
-				<div class="clearfix">
+
 					<h4>Video</h4>
 					<p>Alex has only recently begun to experiment with film, video, and animation; she hopes one day to produce a stop motion animated project.</p>
 					<a href="#"><h5>View Projects <i class="fa fa-angle-double-right" aria-hidden="true"></i></h5></a>
 				</div>
 			</article>
 			
-			<article id="audio-page" class="content-block">
+			<article id="audio-page" class="content-block-page">
 				<p class="content">Alex has been making original electronic music since 1998. Formerly one half of the electronic music project, M45, she currently creates under the alias <a href="https://soundcloud.com/user-827322490"><span class="emphasis">hoof.beat</span></a>, forging a signature sound that incorporates  elements from the experimental, ambient, electronica, IDM, and drum 'n' bass genres.</p>
 					
 				<p>Bridging the divide between anaolgue and digital realms, Alex's compositions combine warmer refrains from acoustic guitar and recorded ambient noise with cooler textures from MIDI-based instruments, computer synthesizers, and punchy drum machine rhythms.</p> 
 				<p class="offset"><a href="https://soundcloud.com/user-827322490"><i class="fa fa-soundcloud" aria-hidden="true"></i> Hear <span class="emphasis">hoof.beat</span> on Soundcloud.</a></p>
 			</article>
 			
-			<article id="web-page" class="content-block">
+			<article id="web-page" class="content-block-page">
 				<p class="content">Alex fell in love with coding after learning BASIC in grade school in 1990, and has been tinkering with HTML and CSS since 1997. She is passionate about writing quality code, and enjoys pushing the boundaries of web development, experimenting with UX and UI, and learning as much as she can about all things Internet. Alex is currently a student in <a href="http://mcad.edu/academic-programs/interactive-design-and-marketing-certificate">MCAD's Interactive Design and Marketing program</a>.</p>
 				
 				<p class="offset"><a href="https://github.com/mixactic"><i class="fa fa-github" aria-hidden="true"></i> Connect with Alex on GitHub.</a></p>

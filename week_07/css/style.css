@@ -68,7 +68,6 @@ ul {
 li {
 	font-family: 'Josefin Slab', serif;
 	font-weight: 600;
-	text-transform: uppercase;
 	line-height: 2;
 }
 
@@ -121,6 +120,10 @@ a:active {
 	background-size: cover;
 }
 
+.header {
+	display: none;
+}
+
 .mobile-header {
 	width: 100%;
 	position: absolute;
@@ -141,8 +144,9 @@ a:active {
 
 .mobile-nav li {
 	display: inline-block;
-	margin: 1em;
+	padding: 1em;
 	font-size: 1em;
+	text-transform: uppercase;
 }
 
 .mobile-nav a:visited {
@@ -179,6 +183,10 @@ a:active {
 	margin: 0 auto;
 	display: block;
 	padding: 1em;
+}
+
+.white-card {
+	display: none;
 }
 
 /* .about {
@@ -230,7 +238,7 @@ a:active {
 
 .social-nav li {
 	display: inline-block;
-	margin: 0 1.5rem 1.75rem 1.75rem;
+	padding: 0 1.25rem;
 	font-size: 2em;
 }
 
@@ -327,7 +335,7 @@ a:active {
 	}
 	
 	.header-1 {
-		background-image: url(../img/background-3.jpg);
+		background-image: url(../img/background-1.jpg);
 		background-position: right center;
 	}
 	
@@ -431,6 +439,58 @@ a:active {
 		object-fit: cover;
 	}
 	
+	.main-nav {
+		display: block;
+		/* position: fixed;
+		top: 0;
+		left: 20%;
+		transform: translateX(-20%);
+		z-index: 250; */
+	} 
+	
+	.main-nav ul {
+		width: 400px;
+		padding: 0;
+	}
+	
+	.main-nav li {
+		display: inline-block;
+		font-size: 0.95em;
+		padding-right: 1em;
+		text-align: center;
+	}
+	
+	.main-nav a:link {
+		font-weight: 900;
+	}
+	
+	.vertical-text-left {
+		transform: rotate(-90deg);
+		transform-origin: left top 0;
+		text-align: center;
+		font-size: 1.5em;
+		font-weight: 900;
+		color: #000;
+		z-index: 100;
+		position: absolute;
+		top: 75%;
+		left: 0;
+		width: 200px;
+		float: left;
+		padding: 0.5em;
+	}
+
+	.white-card {
+		display: block;
+		width: 40px;
+		height: 100vh;
+		background-color: white;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	/*
 	 .main-nav {
 		display: block;
 		position: fixed;
@@ -438,21 +498,25 @@ a:active {
 		left: 50%;
 		transform: translate(-50%, -50%);
 		text-align: center;
-		background-image: url(../img/nav-2.png);
-		background-size: contain;
+		background-image: url(../img/nav-7.png);
 		background-repeat: no-repeat;
-		background-position: center;
+		background-size: cover;
+		background-position: center center;
 		z-index: 200;
+		width: 200px;
+		height: 266px;
 	} 
 	
-	.main-nav li {
-		font-size: 1em;
-		margin: 1em 0;
+	.main-nav ul {
+		padding-top: 6em;
 	}
 	
-	.main-nav ul {
-		padding: 3em;
-	}
+	.main-nav li {
+		font-size: 1.15em;
+		padding: 0;
+		margin: 0;
+		text-transform: uppercase;
+	} */
 	
 	.content-about {
 		width: 45%;
@@ -503,9 +567,19 @@ a:active {
 	
 	.content-works-page {
 		position: absolute;
-		top: 40%;
+		top: 35%;
 		left: 50%;
-		transform: translate(-50%, -40%);
+		transform: translate(-50%,-35%);
+	}
+	
+	.content-block-page {
+		display: none;
+	}
+
+	.content-block-page:target {
+		display: block;
+		width: 100%;
+	
 	}
 	
 	.contact-placement {
