@@ -100,7 +100,7 @@ a:active {
 .header-1 {
 	background-image: url(../img/background-1.jpg);
 	background-attachment: fixed;
-	background-position: center;
+	background-position: top center;
 }
 
 .header-1 a:link {
@@ -118,6 +118,7 @@ a:active {
 	height: 36em;
 	background-repeat: no-repeat;
 	background-size: cover;
+	object-fit: cover;
 }
 
 .header {
@@ -247,16 +248,13 @@ a:active {
 	padding-bottom: 4em;
 }
 
-.mobile-about {
-	background-image: url(../img/wall-1.jpg);
+.mobile-about, .mobile-works {
+	background-image: url(../img/background-4.jpg);
 	background-size: cover;
 	background-position: center right;
 }
 
 .mobile-works {
-	background-image: url(../img/wall-2.jpg);
-	background-size: cover;
-	background-position: center top;
 	height: 72em;
 }
 
@@ -521,8 +519,12 @@ a:active {
 		right: 0;
 		object-fit: cover;
 	}
+	
+	.content-block-contact:target a:link {
+		color: #000;
+	}
 
-	.content-block-about:target {
+	/* .content-block-about:target {
 		background-image: url(../img/wall-1.jpg);
 		background-size: cover;
 		background-position: center right;
@@ -532,7 +534,7 @@ a:active {
 		background-image: url(../img/wall-2.jpg);
 		background-size: cover;
 		background-position: center right;
-	}
+	} */
 	
 	.content h3 {
 		font-size: 1.5em;
