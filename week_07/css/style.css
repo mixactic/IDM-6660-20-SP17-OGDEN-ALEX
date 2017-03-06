@@ -76,7 +76,7 @@ a {
 }
 
 a:link {
-	color: #9c008e;
+	color: #008a3e;
 }
 
 a:visited {
@@ -304,6 +304,10 @@ a:active {
 
 .content-block-about:target, .content-block-works:target, .content-block-contact:target {
 	display: none;	
+}
+
+.works-visual, .works-audio, .works-web {
+	display: none;
 }
 
 
