@@ -558,6 +558,9 @@ a:active {
 		padding: 1em;
 	}
 	
+	.works-visual:target {
+		overflow: auto;
+	}
 	.works-audio {
 		display: none;
 	}
