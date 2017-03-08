@@ -2,7 +2,6 @@
 body {
   background-color: purple;
   font-family: 'Helvetica', Arial, sans-serif; }
-
 /* TABLET */
 @media screen and (min-width: 640px) {
   body {
