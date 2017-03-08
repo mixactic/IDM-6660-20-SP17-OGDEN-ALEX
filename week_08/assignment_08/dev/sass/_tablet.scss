@@ -1,0 +1,42 @@
+/* Tablet */
+@media screen and (min-width: 768px) {
+
+	html {
+		font-size: 1.05em;
+	}
+	
+	.header-1 {
+		background-image: url(../img/background-1.jpg);
+		background-position: right center;
+	}
+	
+	.header-1 {
+		height: 64em;
+	}
+	
+	.mobile-nav li {
+		font-size: 1.25em;
+	}
+	
+	.content-about {
+		max-width: 45%;
+		max-height: 400px;
+		float: left;
+	}
+	
+	.content h2 {
+		font-size: 2em;
+	}
+	
+	.content-about p {
+		font-size: 1.25em;
+	}
+	
+	.content-about img {
+		padding: 1.5em;
+	}
+	
+	.social-nav {
+		padding-top: 3em;
+	}
+}

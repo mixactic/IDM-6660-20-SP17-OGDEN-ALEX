@@ -1,0 +1,218 @@
+/* Desktop */
+
+@media screen and (min-width: 1024px) {	
+
+	html {
+		font-size: 0.85em;
+	}
+	
+	h1 {
+		font-size: 3.75em;
+	}
+	
+	h2 {
+		font-size: 2em;
+	}
+	
+	h3 {
+		font-size: 1.5em;
+	}
+	
+	h4 {
+		font-size: 1.25em;
+	}
+	
+	.mobile-header {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	
+	.header-2 a:link {
+		color: #000;
+	}
+
+	.header-2 a:visited {
+		color: #000;	
+		}
+
+	.header-2 a:hover {
+		color: #0089ce;
+	}
+
+	.header-2 a:active {
+		color: #ff6c8f;
+	}
+
+	.header-1 {
+		background-attachment: local;
+	}
+	
+	.header-2 {
+		display: block;
+	}
+	
+	.mobile-nav, .mobile-works, .mobile-about, .mobile-contact {
+		display: none;
+	}
+	
+	.header-1, .header-2 {
+		position: relative;
+		width: 50%;
+		height: 100vh;
+		float: left;
+		background-position: center;
+		object-fit: cover;
+	}
+	
+	.main-nav {
+		display: block;
+	} 
+	
+	.main-nav ul {
+		width: 400px;
+		padding: 0;
+	}
+	
+	.main-nav li {
+		display: inline-block;
+		font-size: 0.95em;
+		padding-right: 1em;
+		text-align: center;
+	}
+	
+	.main-nav a:link {
+		color: #000;
+		font-weight: 900;
+	}
+	
+	.vertical-text-left {
+		transform: rotate(-90deg);
+		transform-origin: left top 0;
+		text-align: center;
+		font-size: 1.5em;
+		font-weight: 900;
+		color: #000;
+		z-index: 100;
+		position: absolute;
+		top: 75%;
+		left: 0;
+		width: 200px;
+		float: left;
+		padding: 0.5em;
+	}
+
+	.white-card {
+		display: block;
+		width: 40px;
+		height: 100vh;
+		background-color: white;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	
+	.content-about {
+		width: 45%;
+		height: auto;
+		float: left;
+	}
+	
+	.content-about h2 {
+		padding-bottom: 1em;
+	}
+	
+	.content-about img {
+		max-width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.content-block-about:target, .content-block-works:target, .content-block-contact:target {
+		display: block;
+		width: 50%;
+		height: 100vh;
+		position: absolute;
+		top: 0;
+		right: 0;
+		object-fit: cover;
+	}
+	
+	.content-block-contact:target a:link {
+		color: #000;
+	}
+	
+	.content h3 {
+		font-size: 1.5em;
+		font-weight: 900;
+	}
+	
+	.works-visual {
+		display: none;
+	}
+
+	.works-visual:target, .works-audio:target, .works-web:target  {
+		display: block;
+		width: 50%;
+		height: 100vh;
+		position: absolute;
+		top: 0;
+		right: 0;
+		object-fit: cover;
+		z-index: 1000;
+		background-image: url(../img/wall-3.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 1em;
+	}
+	
+	.works-visual:target {
+		overflow: auto;
+	}
+	.works-audio {
+		display: none;
+	}
+	
+	.works-audio:target {
+		display: block;
+	}
+	
+	.works-web {
+		display: none;
+	}
+	
+	.works-web:target {
+		display: block;
+	}
+	
+	.container, .works-container {
+		position: absolute;
+		top: 60%;
+		transform: translateY(-60%);
+		width: 100%;
+		padding-left: 4em;
+		height: 25em;
+	}
+	
+	.works-container ul {
+		padding-top: 4em;
+	}
+	
+	.sections {
+		border-bottom: 1px dotted black;
+	}
+	
+	.social-nav {
+		padding: 0;
+	}
+	
+	.social-nav li {
+		padding: 1em 2em;
+		margin: 0;
+	}
+	
+	.footer {
+		display: none;
+	}
+} 
