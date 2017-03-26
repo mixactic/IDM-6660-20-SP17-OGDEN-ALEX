@@ -1,0 +1,48 @@
+/* DESKTOP */
+
+@media screen and (min-width: 1366px) {
+	
+	body {
+		width: 100%;
+		font-size: 1.5em;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.header {
+		margin: 0;
+		padding: 1rem;
+		width: 400px;
+		border-bottom: 0;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 150;
+	}
+	
+	h1 {
+		line-height: 1.2;
+	}
+	
+	h2 {
+		line-height: 1.4;
+	}
+
+	h1, h2 {
+		margin: 0;
+		padding: 1.618rem 1rem;
+	}
+	
+	.section {
+		margin: 0 auto;
+		width: 50%;
+		padding-top: 6.85372em;
+		padding-left: 2.618em;
+	}
+	
+	.footer p {
+		padding-top: 0.618em;
+	}
+	
+}
+

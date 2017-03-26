@@ -1,0 +1,27 @@
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+	body {
+		width: 768px;
+		font-size: 1.15em;
+	}
+	
+	h1, h2 {
+		padding: 0.618rem 0;
+	}
+	
+	p {
+		padding: 1rem 0;
+	}
+
+	.header, .section {
+		width: 75%;
+		margin: 0 auto;
+	}
+	
+	.header {
+		padding: 1.618rem 0;
+	}
+	
+}
+
