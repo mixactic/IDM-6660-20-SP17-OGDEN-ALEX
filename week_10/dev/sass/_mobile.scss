@@ -1,32 +1,71 @@
 *, *:before, *:after {	
-
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	
 }
 
 html {
-
-	font-size: 14px;
-	
+	font-size: 16px;
+	background-color: #dcdcdc;
 }
 
 body {
-
-	margin: 0;
-	padding: 0;
-	background-color: #dcdcdc;
-
-}
-
-.main {
-	
-	border: 1px solid transparent;
-	margin: 0;
-	padding: 0;
 	width: 300px;
 	margin: 0 auto;
-	background-color: #f7f7f7;
-
+	padding: 0;
+	font-color: #1b1b1b;
 }
+
+h1 {
+	font-family: "Mukta Vaani", sans-serif;
+	font-weight: 500;
+	font-size: 2.618em;
+	color: #2e2758;
+}
+
+p {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1em;
+	line-height: 2.1;
+}
+
+.header {
+	width: 100%;
+	position: relative;
+}
+
+.main-nav {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #483d8b;
+	color: #fff;
+}
+
+.main-nav li {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding: 1.618em;
+	background-color: #e0ffff;
+}
+
+.main-nav li:hover, .main-nav li:focus {
+	background-color: #afeeee;
+}
+
+a:link {
+	text-decoration: none;
+	color: #483d8b;
+}
+
+label {
+	cursor: pointer;
+}
+
+.header, .section {
+	background-color: #f5f5f5;
+	padding: 1em;
+}
+

@@ -1,5 +1,29 @@
-.checkbox-toggle {
-	
-	
+.menu-controller {
+	display: none;
+	visibility: hidden;
+}
+
+.menu-controller ~ ul {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.6s ease;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-controller:checked ~ ul {
+	max-height: 1000px;
+}
+
+.menu {
+	font-family: "Mukta Vaani", sans-serif;
+	font-size: 1.618em;
+	text-transform: uppercase;
+}
+
+.slide-left .menu-controller-checkbox:checked ~ ul {
 	
 }
+
+
