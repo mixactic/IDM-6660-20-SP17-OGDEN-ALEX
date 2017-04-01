@@ -1,0 +1,19 @@
+.transition {
+	
+	p {
+		
+		transition: background-color 2s ease,
+		padding .5s ease,
+		line-height 5s ease;
+	
+	}
+	
+	p:hover {
+	
+		background-color: aqua;
+		padding: 1em;
+		line-height: 3em;
+	
+	}
+	
+}
