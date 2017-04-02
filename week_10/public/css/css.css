@@ -130,7 +130,7 @@ label {
   .main-nav li {
     display: inline-block;
     margin: 0 1rem 0 0;
-    padding: 0;
+    padding: 0 0.809em;
     text-align: left;
     background-color: transparent; }
 
