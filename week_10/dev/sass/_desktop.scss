@@ -1,19 +1,18 @@
 @media screen and (min-width: 768px) {
 	html {
-		font-size: 1.25em;
+		font-size: 1.15em;
 	}
 	
 	body {
 		width: 768px;
 	}
-
-	.main-nav {
-	display: inline-block;
 	
+	p {
+		line-height: 1.6;
+	}
+		
+	.main-nav li {
+		display: inline-block;
 	}
 	
-	.menu-controller:checked ~ ul {
-	display: none;
-	visibility: hidden;
-}
 }

@@ -1,0 +1,36 @@
+@media screen and (min-width: 768px) {
+	.menu-controller ~ ul {
+		max-height: none;
+		overflow: visible;
+	}
+	
+	label {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.main-nav {
+		padding: 1em;
+	}
+	
+	.main-nav ul a {
+		display: inline;
+		color: #fff;
+	}
+			
+	.main-nav li {
+		display: inline-block;
+		margin: 0 1rem 0 0;
+		padding: 0;
+		text-align: left;
+		background-color: transparent;
+	}
+	
+	.main-nav li:hover, .main-nav li:focus {
+		background-color: transparent;
+	}
+	
+	.main-nav li a:hover {
+		color: #afeeee;
+	}
+}

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Mukta+Vaani:300,400,500');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
 *, *:before, *:after {	
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -6,27 +13,39 @@
 
 html {
 	font-size: 16px;
-	background-color: #dcdcdc;
+	background-color: #5f9ea0;
 }
 
 body {
-	width: 300px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 0;
-	font-color: #1b1b1b;
+	color: #1b1b1b;
 }
 
 h1 {
+	font-size: 2.618em;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 1.618em;
+	line-height: 1.4;
+	padding: 1em 0;
+}
+
+h1, h2 {
 	font-family: "Mukta Vaani", sans-serif;
 	font-weight: 500;
-	font-size: 2.618em;
 	color: #2e2758;
+	text-align: center;
 }
 
 p {
 	font-family: "Montserrat", sans-serif;
 	font-size: 1em;
-	line-height: 2.1;
+	line-height: 2;
+	padding: 1em 0;
 }
 
 .header {
@@ -62,6 +81,12 @@ a:link {
 
 label {
 	cursor: pointer;
+}
+
+.menu {
+	font-family: "Mukta Vaani", sans-serif;
+	font-size: 1.618em;
+	text-transform: uppercase;
 }
 
 .header, .section {
